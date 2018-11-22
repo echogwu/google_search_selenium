@@ -40,5 +40,4 @@ if __name__ == "__main__":
     args = vars(parser.parse_args())
     search_text = args["search"]
     sleep_time = args["sleep"]
-    print(sleep_time)
     get_google_titles(search_text=search_text, sleep_time=sleep_time)
